@@ -9,5 +9,6 @@ public class CRUDBasicController {
     public String index(){
         return "index.html";
     }
-
+    @GetMapping("/play")
+    public String play(){return "play.html";}
 }
