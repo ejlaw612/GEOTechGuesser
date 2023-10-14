@@ -17,4 +17,6 @@ public class GeoController {
     public String index(){
         return "GeoGuesser/index.html";
     }
+    @GetMapping("/play")
+    public String play() {return "GeoGuesser/play.html";}
 }
