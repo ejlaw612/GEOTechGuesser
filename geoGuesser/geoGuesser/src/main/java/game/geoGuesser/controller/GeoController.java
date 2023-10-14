@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class GeoController {
     @GetMapping("")
     public String index(){
-        return "index.html";
+        return "GeoGuesser/index.html";
     }
 }
